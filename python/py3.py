@@ -1,5 +1,6 @@
 try:
     num = input("Input a number")
+    num = int(num)
     test = 2 + num
 
 except TypeError:
