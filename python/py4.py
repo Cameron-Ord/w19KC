@@ -8,11 +8,16 @@ def get_dec_from_user():
     except:
         print("something went wrong")
 
-num_one = get_dec_from_user()
-num_two = get_dec_from_user()
+while(True):
 
-if(num_one == None or num_two == None):
-    print("something went wrong")
-else:
-    added_nums = num_one + num_two
-    print(added_nums)
+    num_one = get_dec_from_user()
+    num_two = get_dec_from_user()
+
+    if(num_one == None or num_two == None):
+        print("something went wrong")
+    else:
+        break
+
+
+added_nums = num_one + num_two
+print(added_nums)
